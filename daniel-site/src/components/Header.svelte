@@ -1,7 +1,14 @@
+<script>
+import dan from '$lib/assets/dan.jpeg'
+</script>
+
+
 <header>
   <div>
-<h1>Daniel Soden, Who am I?</h1>
-    <img src="../lib/assets/dan.jpeg" alt="Daniel Soden Smiling in a white shirt">
-    <h2>Welcome to my Portfolio Website! (Crafted in Svelte)</h2>
+    <h1>Who am I? Daniel Soden</h1>
+    <img src={dan} alt="Daniel Soden Smiling in a white shirt">
+    <div class="typing">
+    <h2>Welcome to my Portfolio Website!</h2>
+  </div>
 </div>
 </header>
