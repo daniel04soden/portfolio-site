@@ -1,4 +1,4 @@
-<div>
+<div class="navigation-home">
   <nav>
     <a href="">Home</a>
     <a href="">Projects</a>

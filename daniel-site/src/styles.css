@@ -40,6 +40,9 @@ h2 {
 		cursor 1s step-end infinite;
 }
 
+.navigation-home {
+}
+
 .container {
 	display: flex;
 	/* flex dir is row by default*/
