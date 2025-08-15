@@ -1,14 +1,17 @@
 <script>
 import dan from '$lib/assets/dan.jpeg'
+import Navigation from './navigation.svelte';
 </script>
 
 
 <header>
   <div>
-    <h1>Who am I? Daniel Soden</h1>
+    <h1>Who am I?</h1>
     <img src={dan} alt="Daniel Soden Smiling in a white shirt">
     <div class="typing">
     <h2>Welcome to my Portfolio Website!</h2>
   </div>
 </div>
 </header>
+  <Navigation>
+  </Navigation>
