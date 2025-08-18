@@ -12,6 +12,11 @@ li {
 	color: #6b6969;
 }
 
+footer {
+	border-top: 1px solid white;
+	font-weight: 700;
+}
+
 h1,
 h2,
 h3,
@@ -49,6 +54,7 @@ h2 {
 
 .navigation-home {
 	border-bottom: 3px solid white;
+	word-spacing: 20px;
 }
 
 .container {

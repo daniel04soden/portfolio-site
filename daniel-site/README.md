@@ -1,38 +1,30 @@
-# sv
+# Daniel's Portfolio Site - Explained
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<!--toc:start-->
 
-## Creating a project
+- [Daniel's Portfolio Site - Explained](#daniels-portfolio-site-explained)
+  - [Why did I make this?](#why-did-i-make-this)
+  - [Roadmap for this site:](#roadmap-for-this-site)
+  <!--toc:end-->
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Why did I make this?
 
-```sh
-# create a new project in the current directory
-npx sv create
+- This website served as both a means of proving my web development skills
+- as an excuse to explore svelte as a front end compiler and seeing how easy it is to use for future projects in which I may need to quickly create a simple front end
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Roadmap for this site:
 
-## Developing
+1. Blogging:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- I intend to start making static pages to this website in the form of blogs as a means of providing my opinion on ongoing topics in the Tech world.
+- (This will likely become an early blog)
 
-```sh
-npm run dev
+2. Project Updates:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- I have many project ideas lined up and I'd love to be able to mention them here as to hold myself accountable
 
-## Building
+3. Back-end...:
 
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- For now this website is okay on its own, but given the content is mostly static
+  and I am hosting it on Github codespaces, it shouldn't be a problem to not have a back-end
+- If I were to ever need one, it would be for simple things like a Ticket system or commissions
