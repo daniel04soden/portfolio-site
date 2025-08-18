@@ -26,5 +26,5 @@
 3. Back-end...:
 
 - For now this website is okay on its own, but given the content is mostly static
-  and I am hosting it on Github codespaces, it shouldn't be a problem to not have a back-end
+  and I am hosting it on Github pages, it shouldn't be a problem to not have a back-end
 - If I were to ever need one, it would be for simple things like a Ticket system or commissions
