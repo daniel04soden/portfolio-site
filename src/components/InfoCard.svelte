@@ -13,4 +13,10 @@ let age = ageCalc("2004-09-03")
     <li>I love toying around with different languages,frameworks, technologies and tech in general</li>
     </ul>
   </article>
+  <h3>Want to know a bit more about me?</h3>
+      <article>
+    <p>Here's My Resume, take a look!</p>
+    <embed src="./src/components/DanielSodenCV25.pdf#toolbar=0" width="500" height="375">
+      </article> 
+      <a href="./src/components/DanielSodenCV25.pdf" download>Download Here</a>
 </main>

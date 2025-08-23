@@ -80,7 +80,31 @@ h2 {
 	}
 }
 
+.project-element{
+	border: 2px solid white
+}
+
 .para-border {
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
+}
+
+.light-mode{
+	background-color: white;
+	color: black;
+}
+
+.light-mode li{
+	color:#6b6969
+}
+
+.toggle-button{
+	border-radius: 2px;
+	background-color: gray;
+}
+
+.light-mode .toggle-button{
+	border-radius: 2px;
+	background-color: black;
+	color: white;
 }
