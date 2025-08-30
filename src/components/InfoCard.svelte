@@ -16,8 +16,9 @@ let age = ageCalc("2004-09-03")
   <h3>Want to know a bit more about my professional experience?</h3>
       <article class="para-border">
     <p>Here's My Resume, take a look!</p>
-    <embed src="./src/components/DanielSodenCV25.pdf#toolbar=0" width="500" height="375">
-      <a href="./src/components/DanielSodenCV25.pdf" download>Download Here</a>
+    <embed src="/DanielSodenCV25.pdf" width="500" height="375">
+    
+      <a href="/DanielSodenCV25.pdf" download>Download Here</a>
       </article>
 </div>
 </main>
