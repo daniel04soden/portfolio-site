@@ -7,14 +7,12 @@ let age = ageCalc("2004-09-03")
 
 <div class="inner-container">
 <h3>My Name is Daniel Soden!</h3>
-  <article class="para-border">
-    <ul>
-    <li>I'm a {age} year old software development student and technology enthusiast with a strong foundation in both hardware and programming.</li>
-    <li>I love toying around with different languages,frameworks, technologies and tech in general</li>
-    <li>My main experience is in python, java and Golang with a bit of Svelte learned for this very project</li>
-    <li>I am also a massive open source software fan, most of my machines run Linux and I do all my programming in Emacs</li>
-    </ul>
-  </article>
+<article class="para-border">
+  <ul>
+    <li>I am a {age} year old Software Development Student with a strong foundation in both hardware and operating systems, and I love diving into topics that interest me independently.</li>
+    <li>My main experience is in Python, Java, and Go, and I am a dedicated fan of open-source software, running Linux on most of my machines and programming in Emacs.</li>
+  </ul>
+</article>
   <h3>Want to know a bit more about my professional experience?</h3>
       <article class="para-border">
     <p>Here's My Resume, take a look!</p>
