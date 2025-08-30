@@ -16,5 +16,12 @@
             "desc":"Repository Containing my College Assignments and Notes",
             "url":"https://github.com/daniel04soden/collegeWork"
 
+        },
+        {
+            "title":"Goshush",
+            "desc":"Unix-like Shell written in golang",
+            "url":"https://github.com/daniel04soden/goshush"
+
         }        
+
     ]

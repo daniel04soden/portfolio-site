@@ -103,8 +103,19 @@ h2 {
 	background-color: gray;
 }
 
+.toggle-button:hover{
+	border-radius: 2px;
+	background-color: white;
+}
+
 .light-mode .toggle-button{
 	border-radius: 2px;
 	background-color: black;
 	color: white;
+}
+
+.light-mode .toggle-button:hover{
+	border-radius: 2px;
+	background-color: white;
+	color: black;
 }
