@@ -9,6 +9,7 @@
 <main class="container">
 <Header>
 </Header>
+<div class="inner-container">
   <ol>
     {#each projects as project}
       <li>
@@ -21,4 +22,5 @@
     {/each}
   </ol>
 <Footer></Footer>
+</div>
 </main>
