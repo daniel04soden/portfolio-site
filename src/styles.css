@@ -17,14 +17,19 @@ img {
 
 }
 li {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 200;
 	color: #6b6969;
+
 }
 
 footer {
 	border-top: 1px solid white;
 	font-weight: 700;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
 }
 
 h1,
@@ -42,9 +47,21 @@ a {
 }
 a:hover {
 	color: #5a5e5e;
-	text-decoration: none;
 	font-weight: 500;
 	font-size: 1.65rem;
+}
+
+#email-link{
+	color: lightblue;
+	text-decoration: none;
+	font-weight: 300;
+	font-size:1.2rem;
+}
+
+#email-link:hover{
+	font-size:1.3rem;
+	font-weight:400;
+	color:grey;
 }
 
 .typing {
@@ -76,7 +93,14 @@ h2 {
 
 .inner-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
+}
+
+#skills-container {
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	gap: 30px;
 }
@@ -104,6 +128,7 @@ h2 {
 .para-border {
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
+	flex: 1 1 0px;
 }
 
 .light-mode{
@@ -151,4 +176,3 @@ h2 {
 	font-size:65%;
 	}
 }
-

@@ -7,7 +7,7 @@ import Navigation from "../components/navigation.svelte";
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <main class="container">
-<Header></Header>
+<Header title="Welcome to my Portfolio Website!"></Header>
 <InfoCard></InfoCard>
     <Footer></Footer>
 </main>
