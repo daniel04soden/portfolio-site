@@ -21,6 +21,6 @@
       </li>
     {/each}
   </ol>
-<Footer></Footer>
 </div>
 </main>
+<Footer></Footer>
