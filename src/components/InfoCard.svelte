@@ -48,7 +48,7 @@
   <article>
     <h3>Want to know a bit more about my professional experience?</h3>
     <p>Here's My Resume, take a look!</p>
-    <embed src="/DanielSodenCV25.pdf" width="500" height="375">
+    <embed src="/Black and White Clean Professional A4 Resume.pdf" width="500" height="375">
 
     <a href="/DanielSodenCV25.pdf" download>Download Here</a>
   </article>
