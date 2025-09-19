@@ -1,4 +1,4 @@
 <script>
  import Blog from "../../pages/Blog.svelte"
-</script>>
+</script>
 <Blog/>

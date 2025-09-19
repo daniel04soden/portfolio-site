@@ -1,134 +1,229 @@
-@viewport{
-	width:device-width;
-	zoom:1.0;
+@viewport {
+  width: device-width;
+  zoom: 1.0;
 }
+
 body {
-	background: black;
-	color: white;
-	padding: 0;
-	margin: 0;
-	font-family: "Google Sans Code", monospace;
+  background: black;
+  color: white;
+  padding: 1rem;
+  margin: 0;
+  font-family: "Google Sans Code", monospace;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	display:block;
-
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
 }
-li {
-	font-size: 1.3rem;
-	font-weight: 200;
-	color: #6b6969;
 
+li {
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #6b6969;
+  margin-bottom: 0.75rem;
 }
 
 footer {
-	border-top: 1px solid white;
-	font-weight: 700;
-	bottom: 0;
-	width: 100%;
-	height: 2.5rem;
+  border-top: 1px solid white;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4 {
-	font-weight: 500;
+h1, h2, h3, h4 {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
 }
 
 a {
-	color: #7a8282;
-	text-decoration: none;
-	font-weight: 300;
-	font-size: 1.5rem;
+  color: #7a8282;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
 }
 a:hover {
-	color: #5a5e5e;
-	font-weight: 500;
-	font-size: 1.65rem;
+  color: #5a5e5e;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
-#email-link{
-	color: lightblue;
-	text-decoration: none;
-	font-weight: 300;
-	font-size:1.2rem;
+#email-link {
+  color: lightblue;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
-
-#email-link:hover{
-	font-size:1.3rem;
-	font-weight:400;
-	color:grey;
+#email-link:hover {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: grey;
 }
 
 .typing {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
-
-.typing h1,
-h2 {
-	overflow: hidden;
-	white-space: nowrap;
-	border-right: 1px solid;
-	animation:
-		type 3s steps(20) forwards,
-		cursor 1s step-end infinite;
+.typing h1, .typing h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid;
+  animation:
+    type 3s steps(20) forwards,
+    cursor 1s step-end infinite;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .navigation-home {
-	border-bottom: 3px solid white;
-	word-spacing: 20px;
+  border-bottom: 3px solid white;
+  word-spacing: 1.25rem;
+  padding: 0.5rem 0;
 }
 
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
 }
 
 .inner-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
 }
 
 #skills-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
 }
 
 @keyframes type {
-	from {
-		width: 0;
-	}
-
-	to {
-		width: 100%;
-	}
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
-
 @keyframes cursor {
-	50% {
-		border-color: transparent;
-	}
+  50% {
+    border-color: transparent;
+  }
 }
 
-.project-element{
-	border: 2px solid white
+.project-element {
+  border-top: 2px solid white;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
 }
 
 .para-border {
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	flex: 1 1 0px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  flex: 1 1 auto;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  width: 100%;
 }
+
+.toggle-button {
+  border-radius: 4px;
+  background-color: gray;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.toggle-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.blog-card {
+  border: 2px groove white;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1rem 0;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+  }
+  .inner-container, #skills-container {
+    flex-direction: row;
+    gap: 2rem;
+    width: auto;
+  }
+  .container {
+    gap: 1.5rem;
+    padding: 0 3rem;
+  }
+  .project-image {
+    width: 320px;
+    height: 220px;
+  }
+  .toggle-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+  }
+  .navigation-home {
+    word-spacing: 20px;
+  }
+  .blog-card {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+  .para-border {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+  }
+  .project-element {
+    padding-top: 2rem;
+  }
+}
+
 
 .light-mode{
 	background-color: white;
@@ -168,10 +263,4 @@ h2 {
 .light-mode .para-border{
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-}
-
-@media (max-width:768px){
-	html{
-	font-size:65%;
-	}
 }
