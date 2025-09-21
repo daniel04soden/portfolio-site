@@ -130,6 +130,7 @@ a:hover {
   }
 }
 
+
 .project-element {
   border-top: 2px solid white;
   margin-top: 1.5rem;
@@ -232,6 +233,13 @@ a:hover {
 
 .light-mode li{
 	color:#6b6969
+}
+
+.light-mode .project-element {
+  border-top: 2px solid black;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
 }
 
 .toggle-button{

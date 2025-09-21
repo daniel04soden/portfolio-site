@@ -1,5 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
-import sveltePreprocess from 'svelte-preprocess'; 
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import path from 'path';
 
@@ -9,7 +9,7 @@ const POSTS_DIRECTORY = path.join(process.cwd(), 'src', 'lib', 'posts');
 
 const config = {
 	preprocess: [
-		sveltePreprocess(),
+		vitePreprocess(),
 		mdsvex({
 			extensions: ['.md']
 		})
@@ -19,6 +19,9 @@ const config = {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
+		alias: {
+     		"@/*": "./path/to/lib/*",
+    		},
 		paths: {
 			base: ''
 		},
