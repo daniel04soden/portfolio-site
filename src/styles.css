@@ -272,3 +272,7 @@ a:hover {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
+
+.light-mode footer{
+  border-top: 1px solid black;
+}
